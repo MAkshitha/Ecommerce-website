@@ -1,0 +1,100 @@
+Styles.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    width: 180px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.column {
+    float:left;
+    width:30%;
+    padding:5px;
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+}
+.row::after {
+    content:"";
+    display:table;
+    clear:both;
+    margin:10px;
+   
+
+
+}
+/*section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}*/
+
+
+
+
+
+
+
